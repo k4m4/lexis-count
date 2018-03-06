@@ -15,15 +15,11 @@
 ```js
 const lexisCount = require('lexis-count');
 
-lexisCount('Lorem ipsum dolor sit amet').then(lexis => {
-	console.log(lexis);
-	//=> 5
-});
+lexisCount('Lorem ipsum dolor sit amet')
+//=> 5
 
-lexisCount(' Lorem ipsum dolor  sit amet  ').then(lexis => {
-	console.log(lexis);
-	//=> 5
-});
+lexisCount(' Lorem ipsum dolor   sit amet  ')
+//=> 5
 ```
 
 

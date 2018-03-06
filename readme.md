@@ -1,6 +1,6 @@
 # lexis-count [![Build Status](https://travis-ci.org/k4m4/lexis-count.svg?branch=master)](https://travis-ci.org/k4m4/lexis-count)
 
-> Word counting made simple. Get the number of words in a string.
+> Retrieve the number of words in a string.
 
 
 ## Install

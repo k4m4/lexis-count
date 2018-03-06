@@ -1,7 +1,7 @@
 {
   "name": "lexis-count",
   "version": "1.0.0",
-  "description": "Word counting made simple. Get the number of words in a string. ",
+  "description": "Retrieve the number of words in a string. ",
   "license": "MIT",
   "repository": "k4m4/lexis-count",
   "author": {
@@ -21,8 +21,7 @@
     "count"
   ],
   "files": [
-    "index.js",
-    "cli.js"
+    "index.js"
   ],
   "devDependencies": {
     "ava": "*"

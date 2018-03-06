@@ -1,0 +1,33 @@
+{
+  "name": "lexis-count",
+  "version": "1.0.0",
+  "description": "Word counting made simple. Get the number of words in a string. ",
+  "license": "MIT",
+  "repository": "k4m4/lexis-count",
+  "author": {
+    "name": "Nikolaos Kamarinakis",
+    "url": "nikolaskama.me",
+    "email": "nikolaskam@gmail.com"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "keywords": [
+    "word",
+    "count"
+  ],
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "devDependencies": {
+    "ava": "*"
+  },
+  "dependencies": {
+    "condense-whitespace": "^1.0.0"
+  }
+}

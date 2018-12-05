@@ -2,9 +2,10 @@
 const condenseWhitespace = require('condense-whitespace');
 
 module.exports = function (str, opts) {
-	if (typeof str !== 'string') {
-		throw new TypeError('Expected a string');
+	const words = condenseWhitespace(String(str)).match(/\S+/g)
+	if (words != null) {
+		return words.length;
+	} else {
+		return 0;
 	}
-
-	return condenseWhitespace(str).match(/\S+/g).length;
 };

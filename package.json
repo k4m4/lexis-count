@@ -24,7 +24,7 @@
     "index.js"
   ],
   "devDependencies": {
-    "ava": "*"
+    "ava": "^1.2.1"
   },
   "dependencies": {
     "condense-whitespace": "^1.0.0"

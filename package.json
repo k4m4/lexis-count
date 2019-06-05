@@ -1,6 +1,6 @@
 {
   "name": "lexis-count",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Retrieve the number of words in a string. ",
   "license": "MIT",
   "repository": "k4m4/lexis-count",

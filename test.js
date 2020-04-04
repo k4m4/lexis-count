@@ -1,5 +1,4 @@
 import test from 'ava';
-import execa from 'execa';
 import m from './';
 
 test('string', t => {
